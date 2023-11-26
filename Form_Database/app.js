@@ -43,6 +43,8 @@ const Data = mongoose.model("Data",schema);
 app.get('/',(req,res)=>{
     res.render('index');
 })
+
+//With ( .then().catch() )
 // app.post('/',(req,res)=>{
 //     var mydata = new Data(req.body);
 //     mydata.save().then(()=>{
@@ -51,6 +53,9 @@ app.get('/',(req,res)=>{
 //         res.status(400).render('error')
 //     })
 // })
+
+
+// ( With Try & Catch )
 app.post('/', async (req, res) => {
     try {
       var mydata = new Data(req.body);
