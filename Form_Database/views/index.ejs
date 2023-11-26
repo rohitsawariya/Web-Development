@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../stylesheet/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="/" method="post">
+                <input type="text" name="name" placeholder="Type Your Name" id="name">
+                <input type="email" name="email" placeholder="Enter Your E-mail" id="email">
+                <input type="password" name="password" placeholder="Enter Your Password ( minimum 6 letters )" id="password">
+                <!-- <label for="gender">Gender:</label> -->
+                <input type="number" name="number" id="number" placeholder="Enter Your Number">
+                <select name="gender" id="gender">
+                    <option value="gender" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea placeholder="Enter Address" name="address" id="address" cols="30" rows="2"></textarea>
+                <button type="submit"  value="Submit">Submit</button>
+            </form>
+            <div class="right">
+            <h1>Fill <u>Out</u> the Form!</h1>
+            <h3>Take a Part With Us and Join Us</h3>
+        </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
